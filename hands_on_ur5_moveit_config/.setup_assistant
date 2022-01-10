@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: hands_on_ur5_description
+    relative_path: urdf/hands_on_ur5.urdf.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/hands_on_ur5.srdf
+  CONFIG:
+    author_name: Kwon Jin
+    author_email: kwonjin@kaist.ac.kr
+    generated_timestamp: 1641802476
