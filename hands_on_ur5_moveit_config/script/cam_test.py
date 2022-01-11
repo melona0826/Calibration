@@ -16,7 +16,7 @@ class image_read :
     def callback(self, ros_data) :
         np_arr = np.fromstring(ros_data.data , np.uint8)
         image_np = cv2.imdecode(np_arr , cv2.IMREAD_COLOR)
-        resized_image = cv2.resize(image_np , (1280 , 720) , interpolation = cv2.INTER_NEAREST)
+        resized_image = cv2.resize(image_np , (800 , 800) , interpolation = cv2.INTER_NEAREST)
         cv2.namedWindow("testing" , cv2.WINDOW_NORMAL)
         cv2.imshow('testing' , resized_image)
         cv2.waitKey(2)
