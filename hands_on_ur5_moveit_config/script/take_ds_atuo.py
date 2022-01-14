@@ -16,6 +16,9 @@ from math import pi
 from std_msgs.msg import String
 from moveit_commander.conversions import pose_to_list
 
+class auto_calibration :
+    def cal
+
 class image_read :
     num = 0
     def __init__(self, num):
@@ -71,7 +74,7 @@ def main(args):
     group.stop()
     group.clear_pose_targets()
 
-    
+
 
 
 
