@@ -21,6 +21,13 @@
                     <near>0.02</near>
                     <far>300</far>
                 </clip>
+                <distortion>
+                    <k1>-0.25</k1>
+                    <k2>0.12</k2>
+                    <k3>0.0</k3>
+                    <p1>-0.00028</p1>
+                    <p2>-0.00005</p2>
+                </distortion>
                 <noise>
                     <type>gaussian</type>
                     <mean>0.0</mean>
@@ -34,12 +41,12 @@
                 <imageTopicName>image_raw</imageTopicName>
                 <cameraInfoTopicName>camera_info</cameraInfoTopicName>
                 <frameName>camera_link</frameName>
-                <hackBaseline>0.07</hackBaseline>
-                <distortionK1>0.0</distortionK1>
-                <distortionK2>0.0</distortionK2>
-                <distortionK3>0.0</distortionK3>
+                <!-- <hackBaseline>0.07</hackBaseline> -->
+                <!-- <distortionK1>3.5</distortionK1>
+                <distortionK2>0.2</distortionK2>
+                <distortionK3>1.2</distortionK3>
                 <distortionT1>0.0</distortionT1>
-                <distortionT2>0.0</distortionT2>
+                <distortionT2>0.0</distortionT2> -->
             </plugin>
         </sensor>
     </gazebo>

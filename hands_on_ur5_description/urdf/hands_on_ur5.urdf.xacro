@@ -49,7 +49,7 @@
     <xacro:property name = "camera_width" value ="0.04" />
 
     <joint name = "camera_joint" type = "fixed">
-        <origin xyz = "0.03 0.0 0.0" rpy="3.141 -1.5707 1.5707" />
+        <origin xyz = "0.03 0.0 0.0" rpy="3.141 0 1.5707" />
         <parent link = "ee_link" />
         <child link = "camera_link"/>
     </joint>

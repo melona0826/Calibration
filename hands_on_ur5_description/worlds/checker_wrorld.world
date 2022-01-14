@@ -80,14 +80,14 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='checkerboard_9_7_0_05'>
+    <model name='checkerboard_7_9_0_07'>
       <static>1</static>
-      <link name='checkerboard_9_7_0_05_body'>
+      <link name='checkerboard_7_9_0_07_body'>
         <visual name='checker_0_0'>
-          <pose frame=''>-0.2 -0.15 0 0 -0 0</pose>
+          <pose frame=''>-0.21 -0.28 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -98,10 +98,10 @@
           </material>
         </visual>
         <visual name='checker_0_1'>
-          <pose frame=''>-0.2 -0.1 0 0 -0 0</pose>
+          <pose frame=''>-0.21 -0.21 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -112,10 +112,10 @@
           </material>
         </visual>
         <visual name='checker_0_2'>
-          <pose frame=''>-0.2 -0.05 0 0 -0 0</pose>
+          <pose frame=''>-0.21 -0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -126,10 +126,10 @@
           </material>
         </visual>
         <visual name='checker_0_3'>
-          <pose frame=''>-0.2 0 0 0 -0 0</pose>
+          <pose frame=''>-0.21 -0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -140,10 +140,10 @@
           </material>
         </visual>
         <visual name='checker_0_4'>
-          <pose frame=''>-0.2 0.05 0 0 -0 0</pose>
+          <pose frame=''>-0.21 0 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -154,10 +154,10 @@
           </material>
         </visual>
         <visual name='checker_0_5'>
-          <pose frame=''>-0.2 0.1 0 0 -0 0</pose>
+          <pose frame=''>-0.21 0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -168,10 +168,38 @@
           </material>
         </visual>
         <visual name='checker_0_6'>
-          <pose frame=''>-0.2 0.15 0 0 -0 0</pose>
+          <pose frame=''>-0.21 0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0 0 1</ambient>
+            <diffuse>0 0 0 1</diffuse>
+            <specular>0 0 0 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <visual name='checker_0_7'>
+          <pose frame=''>-0.21 0.21 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.07 0.07 0.0002</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>1 1 1 1</specular>
+            <emissive>1 1 1 1</emissive>
+          </material>
+        </visual>
+        <visual name='checker_0_8'>
+          <pose frame=''>-0.21 0.28 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -182,10 +210,10 @@
           </material>
         </visual>
         <visual name='checker_1_0'>
-          <pose frame=''>-0.15 -0.15 0 0 -0 0</pose>
+          <pose frame=''>-0.14 -0.28 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -196,10 +224,10 @@
           </material>
         </visual>
         <visual name='checker_1_1'>
-          <pose frame=''>-0.15 -0.1 0 0 -0 0</pose>
+          <pose frame=''>-0.14 -0.21 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -210,10 +238,10 @@
           </material>
         </visual>
         <visual name='checker_1_2'>
-          <pose frame=''>-0.15 -0.05 0 0 -0 0</pose>
+          <pose frame=''>-0.14 -0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -224,10 +252,10 @@
           </material>
         </visual>
         <visual name='checker_1_3'>
-          <pose frame=''>-0.15 0 0 0 -0 0</pose>
+          <pose frame=''>-0.14 -0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -238,10 +266,10 @@
           </material>
         </visual>
         <visual name='checker_1_4'>
-          <pose frame=''>-0.15 0.05 0 0 -0 0</pose>
+          <pose frame=''>-0.14 0 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -252,10 +280,10 @@
           </material>
         </visual>
         <visual name='checker_1_5'>
-          <pose frame=''>-0.15 0.1 0 0 -0 0</pose>
+          <pose frame=''>-0.14 0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -266,10 +294,38 @@
           </material>
         </visual>
         <visual name='checker_1_6'>
-          <pose frame=''>-0.15 0.15 0 0 -0 0</pose>
+          <pose frame=''>-0.14 0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>1 1 1 1</specular>
+            <emissive>1 1 1 1</emissive>
+          </material>
+        </visual>
+        <visual name='checker_1_7'>
+          <pose frame=''>-0.14 0.21 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.07 0.07 0.0002</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0 0 1</ambient>
+            <diffuse>0 0 0 1</diffuse>
+            <specular>0 0 0 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <visual name='checker_1_8'>
+          <pose frame=''>-0.14 0.28 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -280,10 +336,10 @@
           </material>
         </visual>
         <visual name='checker_2_0'>
-          <pose frame=''>-0.1 -0.15 0 0 -0 0</pose>
+          <pose frame=''>-0.07 -0.28 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -294,10 +350,10 @@
           </material>
         </visual>
         <visual name='checker_2_1'>
-          <pose frame=''>-0.1 -0.1 0 0 -0 0</pose>
+          <pose frame=''>-0.07 -0.21 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -308,10 +364,10 @@
           </material>
         </visual>
         <visual name='checker_2_2'>
-          <pose frame=''>-0.1 -0.05 0 0 -0 0</pose>
+          <pose frame=''>-0.07 -0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -322,10 +378,10 @@
           </material>
         </visual>
         <visual name='checker_2_3'>
-          <pose frame=''>-0.1 0 0 0 -0 0</pose>
+          <pose frame=''>-0.07 -0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -336,10 +392,10 @@
           </material>
         </visual>
         <visual name='checker_2_4'>
-          <pose frame=''>-0.1 0.05 0 0 -0 0</pose>
+          <pose frame=''>-0.07 0 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -350,10 +406,10 @@
           </material>
         </visual>
         <visual name='checker_2_5'>
-          <pose frame=''>-0.1 0.1 0 0 -0 0</pose>
+          <pose frame=''>-0.07 0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -364,10 +420,38 @@
           </material>
         </visual>
         <visual name='checker_2_6'>
-          <pose frame=''>-0.1 0.15 0 0 -0 0</pose>
+          <pose frame=''>-0.07 0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0 0 1</ambient>
+            <diffuse>0 0 0 1</diffuse>
+            <specular>0 0 0 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <visual name='checker_2_7'>
+          <pose frame=''>-0.07 0.21 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.07 0.07 0.0002</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>1 1 1 1</specular>
+            <emissive>1 1 1 1</emissive>
+          </material>
+        </visual>
+        <visual name='checker_2_8'>
+          <pose frame=''>-0.07 0.28 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -378,10 +462,10 @@
           </material>
         </visual>
         <visual name='checker_3_0'>
-          <pose frame=''>-0.05 -0.15 0 0 -0 0</pose>
+          <pose frame=''>0 -0.28 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -392,10 +476,10 @@
           </material>
         </visual>
         <visual name='checker_3_1'>
-          <pose frame=''>-0.05 -0.1 0 0 -0 0</pose>
+          <pose frame=''>0 -0.21 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -406,10 +490,10 @@
           </material>
         </visual>
         <visual name='checker_3_2'>
-          <pose frame=''>-0.05 -0.05 0 0 -0 0</pose>
+          <pose frame=''>0 -0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -420,10 +504,10 @@
           </material>
         </visual>
         <visual name='checker_3_3'>
-          <pose frame=''>-0.05 0 0 0 -0 0</pose>
+          <pose frame=''>0 -0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -434,10 +518,10 @@
           </material>
         </visual>
         <visual name='checker_3_4'>
-          <pose frame=''>-0.05 0.05 0 0 -0 0</pose>
+          <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -448,10 +532,10 @@
           </material>
         </visual>
         <visual name='checker_3_5'>
-          <pose frame=''>-0.05 0.1 0 0 -0 0</pose>
+          <pose frame=''>0 0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -462,10 +546,38 @@
           </material>
         </visual>
         <visual name='checker_3_6'>
-          <pose frame=''>-0.05 0.15 0 0 -0 0</pose>
+          <pose frame=''>0 0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>1 1 1 1</specular>
+            <emissive>1 1 1 1</emissive>
+          </material>
+        </visual>
+        <visual name='checker_3_7'>
+          <pose frame=''>0 0.21 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.07 0.07 0.0002</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0 0 1</ambient>
+            <diffuse>0 0 0 1</diffuse>
+            <specular>0 0 0 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <visual name='checker_3_8'>
+          <pose frame=''>0 0.28 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -476,10 +588,10 @@
           </material>
         </visual>
         <visual name='checker_4_0'>
-          <pose frame=''>0 -0.15 0 0 -0 0</pose>
+          <pose frame=''>0.07 -0.28 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -490,10 +602,10 @@
           </material>
         </visual>
         <visual name='checker_4_1'>
-          <pose frame=''>0 -0.1 0 0 -0 0</pose>
+          <pose frame=''>0.07 -0.21 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -504,10 +616,10 @@
           </material>
         </visual>
         <visual name='checker_4_2'>
-          <pose frame=''>0 -0.05 0 0 -0 0</pose>
+          <pose frame=''>0.07 -0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -518,10 +630,10 @@
           </material>
         </visual>
         <visual name='checker_4_3'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose frame=''>0.07 -0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -532,10 +644,10 @@
           </material>
         </visual>
         <visual name='checker_4_4'>
-          <pose frame=''>0 0.05 0 0 -0 0</pose>
+          <pose frame=''>0.07 0 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -546,10 +658,10 @@
           </material>
         </visual>
         <visual name='checker_4_5'>
-          <pose frame=''>0 0.1 0 0 -0 0</pose>
+          <pose frame=''>0.07 0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -560,10 +672,38 @@
           </material>
         </visual>
         <visual name='checker_4_6'>
-          <pose frame=''>0 0.15 0 0 -0 0</pose>
+          <pose frame=''>0.07 0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0 0 1</ambient>
+            <diffuse>0 0 0 1</diffuse>
+            <specular>0 0 0 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <visual name='checker_4_7'>
+          <pose frame=''>0.07 0.21 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.07 0.07 0.0002</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>1 1 1 1</specular>
+            <emissive>1 1 1 1</emissive>
+          </material>
+        </visual>
+        <visual name='checker_4_8'>
+          <pose frame=''>0.07 0.28 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -574,10 +714,10 @@
           </material>
         </visual>
         <visual name='checker_5_0'>
-          <pose frame=''>0.05 -0.15 0 0 -0 0</pose>
+          <pose frame=''>0.14 -0.28 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -588,10 +728,10 @@
           </material>
         </visual>
         <visual name='checker_5_1'>
-          <pose frame=''>0.05 -0.1 0 0 -0 0</pose>
+          <pose frame=''>0.14 -0.21 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -602,10 +742,10 @@
           </material>
         </visual>
         <visual name='checker_5_2'>
-          <pose frame=''>0.05 -0.05 0 0 -0 0</pose>
+          <pose frame=''>0.14 -0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -616,10 +756,10 @@
           </material>
         </visual>
         <visual name='checker_5_3'>
-          <pose frame=''>0.05 0 0 0 -0 0</pose>
+          <pose frame=''>0.14 -0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -630,10 +770,10 @@
           </material>
         </visual>
         <visual name='checker_5_4'>
-          <pose frame=''>0.05 0.05 0 0 -0 0</pose>
+          <pose frame=''>0.14 0 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -644,10 +784,10 @@
           </material>
         </visual>
         <visual name='checker_5_5'>
-          <pose frame=''>0.05 0.1 0 0 -0 0</pose>
+          <pose frame=''>0.14 0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -658,10 +798,38 @@
           </material>
         </visual>
         <visual name='checker_5_6'>
-          <pose frame=''>0.05 0.15 0 0 -0 0</pose>
+          <pose frame=''>0.14 0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>1 1 1 1</specular>
+            <emissive>1 1 1 1</emissive>
+          </material>
+        </visual>
+        <visual name='checker_5_7'>
+          <pose frame=''>0.14 0.21 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.07 0.07 0.0002</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0 0 1</ambient>
+            <diffuse>0 0 0 1</diffuse>
+            <specular>0 0 0 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <visual name='checker_5_8'>
+          <pose frame=''>0.14 0.28 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -672,10 +840,10 @@
           </material>
         </visual>
         <visual name='checker_6_0'>
-          <pose frame=''>0.1 -0.15 0 0 -0 0</pose>
+          <pose frame=''>0.21 -0.28 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -686,10 +854,10 @@
           </material>
         </visual>
         <visual name='checker_6_1'>
-          <pose frame=''>0.1 -0.1 0 0 -0 0</pose>
+          <pose frame=''>0.21 -0.21 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -700,10 +868,10 @@
           </material>
         </visual>
         <visual name='checker_6_2'>
-          <pose frame=''>0.1 -0.05 0 0 -0 0</pose>
+          <pose frame=''>0.21 -0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -714,10 +882,10 @@
           </material>
         </visual>
         <visual name='checker_6_3'>
-          <pose frame=''>0.1 0 0 0 -0 0</pose>
+          <pose frame=''>0.21 -0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -728,10 +896,10 @@
           </material>
         </visual>
         <visual name='checker_6_4'>
-          <pose frame=''>0.1 0.05 0 0 -0 0</pose>
+          <pose frame=''>0.21 0 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -742,10 +910,10 @@
           </material>
         </visual>
         <visual name='checker_6_5'>
-          <pose frame=''>0.1 0.1 0 0 -0 0</pose>
+          <pose frame=''>0.21 0.07 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -756,10 +924,10 @@
           </material>
         </visual>
         <visual name='checker_6_6'>
-          <pose frame=''>0.1 0.15 0 0 -0 0</pose>
+          <pose frame=''>0.21 0.14 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -769,11 +937,11 @@
             <emissive>0 0 0 1</emissive>
           </material>
         </visual>
-        <visual name='checker_7_0'>
-          <pose frame=''>0.15 -0.15 0 0 -0 0</pose>
+        <visual name='checker_6_7'>
+          <pose frame=''>0.21 0.21 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -783,179 +951,11 @@
             <emissive>1 1 1 1</emissive>
           </material>
         </visual>
-        <visual name='checker_7_1'>
-          <pose frame=''>0.15 -0.1 0 0 -0 0</pose>
+        <visual name='checker_6_8'>
+          <pose frame=''>0.21 0.28 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.05 0.05 0.0002</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0 0 0 1</ambient>
-            <diffuse>0 0 0 1</diffuse>
-            <specular>0 0 0 1</specular>
-            <emissive>0 0 0 1</emissive>
-          </material>
-        </visual>
-        <visual name='checker_7_2'>
-          <pose frame=''>0.15 -0.05 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.0002</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 1 1 1</ambient>
-            <diffuse>1 1 1 1</diffuse>
-            <specular>1 1 1 1</specular>
-            <emissive>1 1 1 1</emissive>
-          </material>
-        </visual>
-        <visual name='checker_7_3'>
-          <pose frame=''>0.15 0 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.0002</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0 0 0 1</ambient>
-            <diffuse>0 0 0 1</diffuse>
-            <specular>0 0 0 1</specular>
-            <emissive>0 0 0 1</emissive>
-          </material>
-        </visual>
-        <visual name='checker_7_4'>
-          <pose frame=''>0.15 0.05 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.0002</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 1 1 1</ambient>
-            <diffuse>1 1 1 1</diffuse>
-            <specular>1 1 1 1</specular>
-            <emissive>1 1 1 1</emissive>
-          </material>
-        </visual>
-        <visual name='checker_7_5'>
-          <pose frame=''>0.15 0.1 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.0002</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0 0 0 1</ambient>
-            <diffuse>0 0 0 1</diffuse>
-            <specular>0 0 0 1</specular>
-            <emissive>0 0 0 1</emissive>
-          </material>
-        </visual>
-        <visual name='checker_7_6'>
-          <pose frame=''>0.15 0.15 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.0002</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 1 1 1</ambient>
-            <diffuse>1 1 1 1</diffuse>
-            <specular>1 1 1 1</specular>
-            <emissive>1 1 1 1</emissive>
-          </material>
-        </visual>
-        <visual name='checker_8_0'>
-          <pose frame=''>0.2 -0.15 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.0002</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0 0 0 1</ambient>
-            <diffuse>0 0 0 1</diffuse>
-            <specular>0 0 0 1</specular>
-            <emissive>0 0 0 1</emissive>
-          </material>
-        </visual>
-        <visual name='checker_8_1'>
-          <pose frame=''>0.2 -0.1 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.0002</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 1 1 1</ambient>
-            <diffuse>1 1 1 1</diffuse>
-            <specular>1 1 1 1</specular>
-            <emissive>1 1 1 1</emissive>
-          </material>
-        </visual>
-        <visual name='checker_8_2'>
-          <pose frame=''>0.2 -0.05 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.0002</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0 0 0 1</ambient>
-            <diffuse>0 0 0 1</diffuse>
-            <specular>0 0 0 1</specular>
-            <emissive>0 0 0 1</emissive>
-          </material>
-        </visual>
-        <visual name='checker_8_3'>
-          <pose frame=''>0.2 0 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.0002</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 1 1 1</ambient>
-            <diffuse>1 1 1 1</diffuse>
-            <specular>1 1 1 1</specular>
-            <emissive>1 1 1 1</emissive>
-          </material>
-        </visual>
-        <visual name='checker_8_4'>
-          <pose frame=''>0.2 0.05 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.0002</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0 0 0 1</ambient>
-            <diffuse>0 0 0 1</diffuse>
-            <specular>0 0 0 1</specular>
-            <emissive>0 0 0 1</emissive>
-          </material>
-        </visual>
-        <visual name='checker_8_5'>
-          <pose frame=''>0.2 0.1 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.0002</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 1 1 1</ambient>
-            <diffuse>1 1 1 1</diffuse>
-            <specular>1 1 1 1</specular>
-            <emissive>1 1 1 1</emissive>
-          </material>
-        </visual>
-        <visual name='checker_8_6'>
-          <pose frame=''>0.2 0.15 0 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.0002</size>
+              <size>0.07 0.07 0.0002</size>
             </box>
           </geometry>
           <material>
@@ -969,7 +969,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <box>
-              <size>0.55 0.45 0.0001</size>
+              <size>0.63 0.77 0.0001</size>
             </box>
           </geometry>
           <material>
@@ -983,18 +983,18 @@
         <kinematic>0</kinematic>
         <gravity>1</gravity>
       </link>
-      <pose frame=''>-0.153227 3.50364 0 0 -0 0</pose>
+      <pose frame=''>2.53731 -0.123494 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>81 865000000</sim_time>
-      <real_time>82 117531949</real_time>
-      <wall_time>1641878138 961325025</wall_time>
-      <iterations>81865</iterations>
-      <model name='checkerboard_9_7_0_05'>
-        <pose frame=''>-0.153227 3.50364 0.528267 1.5708 -0 0</pose>
+      <sim_time>131 317000000</sim_time>
+      <real_time>131 567479598</real_time>
+      <wall_time>1642125747 502543224</wall_time>
+      <iterations>131317</iterations>
+      <model name='checkerboard_7_9_0_07'>
+        <pose frame=''>2.59411 -0.106924 0.992659 3e-06 -1.57079 3.14159</pose>
         <scale>1 1 1</scale>
-        <link name='checkerboard_9_7_0_05_body'>
-          <pose frame=''>-0.153227 3.50364 0.528267 1.5708 -0 0</pose>
+        <link name='checkerboard_7_9_0_07_body'>
+          <pose frame=''>2.59411 -0.106924 0.992659 3e-06 -1.57079 3.14159</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -1016,7 +1016,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>0.135584 -1.19298 0.607264 0 0.071643 1.5962</pose>
+        <pose frame=''>-11.3566 -3.35591 4.8804 0 0.339643 0.216195</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
