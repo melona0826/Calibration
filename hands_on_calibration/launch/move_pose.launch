@@ -1,3 +1,7 @@
 <launch>
-    <node name = "move_pose" pkg = "hands_on_calibration" type = "move_pose" respawn = "false" output = "screen"/>
+    <node name = "move_pose" pkg = "hands_on_calibration" type = "move_pose" respawn = "false" output = "screen">
+        <rosparam command="load" file="$(find hands_on_ur5_moveit_config)/config/kinematics.yaml"/>
+        <param name="/planning_plugin" value="ompl_interface/OMPLPlanner"/>
+        <rosparam command="load" file="$(find hands_on_ur5_moveit_config)/config/ompl_planning.yaml"/>
+    </node>
 </launch>
