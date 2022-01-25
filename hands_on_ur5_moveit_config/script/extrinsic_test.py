@@ -23,8 +23,9 @@ class Calibration :
         self.objp = np.zeros((self.checker_row * self.checker_col , 3) , np.float32)
         self.objp[: , :2] = np.mgrid[0:self.checker_row , 0:self.checker_col].T.reshape(-1 , 2)*25
 
-        self.camera_mtx = np.array( [[947.937514 , 0.000 , 647.198897] , [0.000 , 949.744496 , 362.029067] , [0.000 , 0.000 , 1.000]] , dtype = np.float32)
-        self.dist_coef = np.array( [0.134149 , -0.190451 , 0.000198 , 0.007935 , 0.000] , dtype = np.float32)
+        #self.camera_mtx = np.array( [[947.937514 , 0.000 , 647.198897] , [0.000 , 949.744496 , 362.029067] , [0.000 , 0.000 , 1.000]] , dtype = np.float32)
+        self.camera_mtx = np.array( [[638.042146, 0.000000, 300.264402] , [0.000000, 646.367549, 251.211967] , [0.000 , 0.000 , 1.000]] , dtype = np.float32)
+        self.dist_coef = np.array( [0.138742, -0.178317, 0.005451, -0.013493, 0.000000] , dtype = np.float32)
 
         self.axis = np.float32([[20,0,0] , [0,20,0] , [0,0,-20]]).reshape(-1,3)
 
@@ -49,6 +50,8 @@ class Calibration :
         if ret == True:
             corners2 = cv2.cornerSubPix(gray_img,corners,(11,11),(-1,-1),self.criteria)
 
+
+
             ret, rvecs, tvecs = cv2.solvePnP(self.objp , corners2, self.camera_mtx, self.dist_coef, cv2.SOLVEPNP_P3P)
 
             imgpts, jac = cv2.projectPoints(self.axis, rvecs, tvecs, self.camera_mtx , self.dist_coef)
@@ -62,11 +65,8 @@ class Calibration :
 
             cv_image = self.draw(cv_image, corners2 , imgpts)
 
-            cv2.imshow('img' , cv_image)
-            cv2.waitKey(2)
-
-
-
+        cv2.imshow('img' , cv_image)
+        cv2.waitKey(2)
 
 
 
