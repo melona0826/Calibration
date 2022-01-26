@@ -18,7 +18,7 @@ for fname in images:
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     # Find the chess board corners
     ret, corners = cv2.findChessboardCorners(gray, (8,6),None)
-    
+
     # If found, add object points, image points (after refining them)
     if ret == True:
         objpoints.append(objp)
@@ -39,11 +39,12 @@ print("=========Camera Mtx=========")
 for i in mtx :
     print(i)
 
-img = cv2.imread('data_4/test3.png')
+img = cv2.imread('data_4/test15.png')
 h,  w = img.shape[:2]
 newcameramtx, roi = cv2.getOptimalNewCameraMatrix(mtx, dist, (w,h), 1, (w,h))
-
+print('roi !')
+print(roi)
 dst = cv2.undistort(img, mtx, dist, None, newcameramtx)
-x,y,w,h = roi
-dst = dst[y:y+h, x:x+w]
+# x,y,w,h = roi
+# dst = dst[y:y+h, x:x+w]
 cv2.imwrite('calibresult.png',dst)
